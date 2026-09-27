@@ -1,0 +1,10 @@
+---
+
+#### **C. `.gitignore`**
+Evita que ficheiros temporários do Python ou do VS Code subam para o GitHub:
+
+```text
+__pycache__/
+*.pyc
+.vscode/
+.env
